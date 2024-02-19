@@ -1,0 +1,86 @@
+.container {
+    margin-top: 100px;
+    margin-bottom: 3px;
+    position: relative;
+    margin-right: 100px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+
+    height: 600px;
+    width: 80vw;
+
+    border: 1px solid black;
+    border-radius: 40px;
+    background-color:linear-gradient(217deg, rgba(13,35,58,1) 0%, rgb(54, 90, 122) 100%);
+
+}
+
+
+.Hero_block-left {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(217deg, rgba(13,35,58,1) 0%, rgb(54, 90, 122) 100%);
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+
+    /* clip-path:url(./images/Vector.svg); */
+}
+
+.Hero_title {
+    margin-left: 80px;
+    color: white;
+
+}
+
+
+.Hero_block-right {
+    background-image: url('./images/25-anuncios-con-payasos.jpg');
+    z-index: 0;
+    background-size: cover;
+    display: flex;
+    width: 50%;
+    height: 100%;
+
+    background-color: black;
+    
+}
+
+.Hero_block-right-img {
+    background-image: url('./images/25-anuncios-con-payasos.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+    mask-image: url('./images/test.svg');
+    mask-position: left top;
+    mask-repeat: no-repeat;
+}
+
+
+
+.wave {
+    position: absolute;
+    top: -5%;
+    left: 50%;
+    z-index: 3;
+    transform: translateX(-50%);
+    background-color: transparent;
+    height: 110%;
+    width: auto;
+}
+
+/*  */
+
+
